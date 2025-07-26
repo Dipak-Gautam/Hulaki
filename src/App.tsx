@@ -1,6 +1,7 @@
 import React from "react";
 import Recent from "./Components/Recent/Recent";
 import ApiScreen from "./Components/ApiScreen/ApiScreen";
+import ResponseSection from "./Components/ApiScreen/Component/ResponseSection";
 
 const App = () => {
   return (

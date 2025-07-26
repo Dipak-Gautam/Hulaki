@@ -1,10 +1,11 @@
 import React from "react";
 import SendButton from "../Button/SendButton";
 import BodySection from "./Component/BodySection";
+import ResponseSection from "./Component/ResponseSection";
 
 const ApiScreen = () => {
   return (
-    <div className="flex flex-1 p-5 flex-col ">
+    <div className="flex flex-1 p-5 flex-col h-full  ">
       <div className="flex gap-2">
         <div className="border overflow-hidden rounded-lg flex items-center flex-1">
           <div className="bg-sky-100 p-1 px-3">
@@ -27,6 +28,7 @@ const ApiScreen = () => {
         <SendButton onClick={() => console.log("hello")} />
       </div>
       <BodySection />
+      <ResponseSection />
     </div>
   );
 };
