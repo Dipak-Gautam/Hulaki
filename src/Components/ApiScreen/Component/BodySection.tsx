@@ -35,7 +35,7 @@ const BodySection = ({ body, token, setBody, setToken }: BodySectionProps) => {
 
   return (
     <div>
-      <div className="flex my-2 gap-5">
+      <div className="flex my-2 gap-5 max-w-[80vw]">
         <div
           className={`bg-orange-500 border border-orange-500 p-1 px-3 rounded-xl text-xs font-medium text-amber-50 cursor-pointer ${
             switcher &&

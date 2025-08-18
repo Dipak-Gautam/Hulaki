@@ -7,7 +7,7 @@ interface ResponseSectionProps {
 
 const ResponseSection = ({ status, response }: ResponseSectionProps) => {
   return (
-    <div className="h-full flex flex-col gap-2 my-2">
+    <div className="h-full flex flex-col gap-2 my-2 max-w-[80vw]">
       <div className="bg-amber-700 flex   border items-center rounded-md p-1 justify-between text-sm text-gray-200 font-medium px-3">
         <div>Response</div>
         <div className="flex items-center gap-2">
